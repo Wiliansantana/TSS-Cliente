@@ -1,69 +1,523 @@
 
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="images/TS.png">
+		<title>TSS Assistencia</title>
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!-- Custom styles for this template -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.min.css"  rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="thumbnail-gallery.css">
+	</head>
+	<body id="page-top">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top"><img src="images/WIL 33.png" alt=""></a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about">Empresa</a>
+						</li>
+						
+						<li>
+							<a class="page-scroll" href="#portfolio">Serviços</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="fotos.html">Fotos</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="Serviços.html">Videos</a>
+						</li>
 
-    <title>Gerenciador</title>
-  </head>
+						<li>
+							<a class="page-scroll" href="pecas.html">Peças</a>
+						</li>
 
+						<li>
+							<a class="page-scroll" href="#team">Clientes</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contato</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		<!-- Header -->
+		<header>
+			<div class="container-fluid">
+				<div class="slider-container d-none d-md-block">
 
+						<div id="myCarousel" class="carousel slide " data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators ">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-  <body onload="mostraPatio()">
-    <div class="container">
-        <div class="header clearfix">
-            <h2>Produtos Romario <a href="clientes.html"><button class="btn btn-success" onclick="">Clientes</button></a> </h2> 
-            <div class="jumbotron">
-                <form id="formulario">
-                    <div class="form-group">
-                        <label>Codigo:</label>
-                        <input type="text" id="modeloCarro" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label>Descrição:</label>
-                        <input type="text" id="placaCarro" name="" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label>Quantidade:</label>
-                        <input type="text" id="qtd" name="" class="form-control">
-                    </div>
-                        <button type="submit" class="btn btn-primary">Adicionar</button>
-                </form>
-            </div>
-            </div>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/10.jpg" alt="">
+      <div class="carousel-caption ">
+        
+        <p></p>
+      </div>
     </div>
 
-    <div class="row marketing">
-        <div class="col-lg-12">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Codigo</th>
-                        <th>Descrição</th>
-                        <th>Quantidades</th>
-                        <th>Finalizar</th>
+    <div class="item">
+      <img src="images/LOGO TB WILL 2.jpg" alt="">
+      <div class="carousel-caption ">
+        <h3></h3>
+      </div>
+    </div>
+
+
+
+    <div class="item">
+      <img src="images/TSS.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  
+</div>
+
+				</div>
+			</div>
+		</header>
+
+		
+
+		<section id="about" class="light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>Sobre</h2>
+							<p>A TSS foi fundada no dia 10 de Setembro de 2013, em Limeira-SP, 
+							atuando na área de Assistência Técnica em máquinas de empacotamento, balanças, envasadoras, pasteurizador, despoupadeira controladores de peso e rotuladoras.
+							Consulte a TSS você será atendido com todo profissionalismo e comprometimento.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- about module -->
+					
+					<!-- end about module -->
+					<!-- about module -->
+					
+					<!-- end about module -->
+
+				
+					
+
+					<div class="col-md-3 text-center">
+						<div class="mz-module">
+							<div class="mz-module-about">
+
+								<i class="fa fa-eye color1 ot-circle"></i>
+								<h3>Visão</h3>
+								<p>Ser líder no atendimento em Assistência Técnica em diversos maquinarios industriais.
+								</p>
+							</div>
+							
+						</div>
+					</div>
+
+
+					<div class="col-md-3 text-center">
+						<div class="mz-module">
+							<div class="mz-module-about">
+								
+								<i class="fa fa-briefcase color2 ot-circle"></i>
+								<h3>Perfil</h3>
+								<p>Profissional capacitado atuando em diversas areas na parte de manutenção preventiva </p>
+							</div>
+							
+						</div>
+					</div>
+
+	
+
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module">
+							<div class="mz-module-about">
+								
+								<i class="fa fa-line-chart color4 ot-circle"></i>
+								<h3>Missão</h3>
+								<p>Mostrar ao nossos clientes a confiança e qualidade no atendimento de Assistência Técnica Preventiva e sua lucratividade.</p>
+							</div>
+							
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module">
+							<div class="mz-module-about">
+								
+								<i class="fa fa-check-circle color3 ot-circle"></i>
+								
+
+								<h3>Valores</h3>
+								<p> Dar ao nossos parceiros e clientes o valor e respeito, mantendo transparência e sinceridade nas ações executadas, buscando melhoria nos serviços prestados e atendê-los de forma eficiente.</p>
+							</div>
+							
+						</div>
+					</div>
+					<!-- end about module -->
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
+
+		
+
+		<section id="portfolio" class="section-features">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title">
+						<h2>Serviços</h2>
+						<p >Realizamos assistência em equipamentos Tambflex e Tanbrás, manutenção em máquinas de empacotamento, enfardadora, cabeçote múltiplo, dosadores, manutenção preventiva e orientação operacional, temos clp, resistencia para embaladeira, datadores, cilindros, valvulas pneumáticas, e muito mais ... </p>
+					</div>
+				</div>
+			</div>
+			
+			</div>
+
+			<style> 
+			video {
+    		width: 100%;
+    		
+			}</style>
+		
+					
+<div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/envasadora 5 litros naturacitrus.mp4">
                         
-                    </tr>
-                </thead>
-                <tbody id="resultados"> </tbody>
-            </table>
+                       <video width="251" height="200" controls controlsList="nodownload"  controls="controls"   oncontextmenu="return false;" controls>
+							<source src="video/envasadora 5 litros naturacitrus.mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Envasadora de Suco 5 Litros</h3>
+                        <p>Reforma comando eletrico.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/emb tambflex brasfrut.mp4">
+                        
+                       <video width="251" height="200" controls controlsList="nodownload"  controls="controls"  oncontextmenu="return false;" controls>
+							<source src="video/emb tambflex brasfrut.mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Envasadora de Poupas</h3>
+                        <p>Revisão geral e ajustes de peso do sache.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/embaladeira triangulo 30ml.mp4">
+                        
+                       <video width="251" height="200" controls controlsList="nodownload" controls="controls"  oncontextmenu="return false;" controls>
+							<source src="video/embaladeira triangulo 30ml.mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Envasadora de Mostarda</h3>
+                        <p> Revisão de funcionamento</p>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+            <div class="row">
 
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/enfardadeira com regulador de bobina.mp4">
+                        
+                       <video width="251" height="200"controls controlsList="nodownload" controls="controls"  oncontextmenu="return false;" controls>
+							<source src="video/enfardadeira com regulador de bobina.mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Enfardadeira de Poupas de Frutas</h3>
+                        <p>Desenvolvimento de software e comando eletrico.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/WhatsApp Video 2019-07-21 at 14.17.18.mp4">
+                        
+                       <video width="251" height="200" controls controlsList="nodownload" controls="controls"  oncontextmenu="return false;" controls>
+							<source src="video/WhatsApp Video 2019-07-21 at 14.17.18.mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Envasadora de Geladinho</h3>
+                        <p>Alteração de largura e comprimento do sache</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/envasadora rotativa sandro com suco 2.mp4">
+                        
+                       <video width="251" height="200" controls controlsList="nodownload" controls="controls"  oncontextmenu="return false;" controls>
+							<source src="video/envasadora rotativa sandro com suco 2.mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Envasadora de Garrafas</h3>
+                        <p> Ajustes de sincronia e alteração de não conformidades</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            </div>
+            <div class="row">
+
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/WhatsApp Video 2019-07-21 at 14.01.24.mp4">
+                        
+                       <video width="251" height="200" controls controlsList="nodownload" controls="controls"  oncontextmenu="return false;" controls>
+							<source src="video/WhatsApp Video 2019-07-21 at 14.01.24.mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Envasadora de suco 5 Litros</h3>
+                        <p>Revisão da maquina e treinamento operacional.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/WhatsApp Video 2019-07-21 at 14.01.24(1).mp4">
+                        
+                       <video width="251" height="200" controls controlsList="nodownload"  controls="controls"  oncontextmenu="return false;" controls>
+							<source src="video/WhatsApp Video 2019-07-21 at 14.01.24(1).mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Envasadora de Sorvete</h3>
+                        <p>Reforma e revisão completa</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4" align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="thumbnail">
+                    <a class="lightbox" href="video/MOV_1858.mp4.mp4">
+                        
+                       <video width="251" height="200" controls controlsList="nodownload" controls="controls"  oncontextmenu="return false;" controls>
+							<source src="video/MOV_1858.mp4" type="video/mp4">
+                    </a><div class="caption">
+                        <h3>Rosqueador de Tampas</h3>
+                        <p>Alterações de tamanhos de garrafas.</p>
+                    </div>
+                    
+                </div>
+            </div>
+             <center><a class="page-scroll" href="Serviços.html"><h4>Mais videos...</h4></a></center>
+            </div>
+            
         </div>
-    </div>
-    
+        </div>
+        </div>
 
 
+    </div> 
 
 
+		</section>
 
+		
+		
+		<section id="team" class="light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>Clientes</h2>
+							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- team member item -->
+					<div class="col-md-4">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="http://radarconsultoria.net.br/images/projects/img61.jpg" class="img-responsive" alt="author">
+							</div>
+							<div class="team-text">
+								<h3>Tambflex</h3>
+								<div class="team-position">Atuação</div>
+								<p>Pasteurizador, envasadora rotativa para copos, envasadora vertical, iorgutera, extratora sucos cítricos</p>
+								<div class="team-socials">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-youtube"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="team-item">
+							<div class="team-image">
 
+								<center><img src="images/dn.png" class="img-responsive" alt="author"></center>
+							</div>
+							<div class="team-text">
+								<h3>D.N PACK</h3>
+								<div class="team-position">Atuação</div>
+								<p>Atua na area de assistencia tecnica em maquinas de empacotamento, balanças e muito mais.</p>
+								<div class="team-socials">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-youtube"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="http://radarconsultoria.net.br/images/projects/img61.jpg" class="img-responsive" alt="author">
+							</div>
+							<div class="team-text">
+								<h3>Tambflex</h3>
+								<div class="team-position">Atuação</div>
+								<p>Pasteurizador, envasadora rotativa para copos, envasadora vertical, iorgutera, extratora sucos cítricos</p>
+								<div class="team-socials">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-youtube"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end team member item -->
+				</div>
+			</div>
+		</section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-  </body>
+		
+
+		<section id="contact" class="dark-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>Contato</h2>
+							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="section-text">
+							<h4>Contato</h4>
+							<a href="http://api.whatsapp.com/send?1=pt_BR&phone=5519982432340"><p> <i class="fa fa-whatsapp" aria-hidden="true"></i></i> (19) 9 8243 2340</p></a>
+							
+							<p><i class="fa fa-envelope"></i>  
+								<a href="mailto:tssautomacao@gmail.com?subject=Hello%20again">tssautomacao@gmail.com </a></p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="section-text">
+							<h4>Horarios</h4>
+							<p><i class="fa fa-clock-o"></i> <span class="day">Segunda a sexta:</span><span>7:00 as  17:00</span></p>
+							<p><i class="fa fa-clock-o"></i> <span class="day">Sabados:</span><span>07:00 as 12:00</span></p>
+							
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="section-text">
+							<h4>Endereço</h4>
+							<p><i class="fa fa-home" aria-hidden="true"></i> <span class="day">Rua: Milton Aparecido Veroni N°:86</span></p>
+							<p><i class="fa fa-home" aria-hidden="true"></i> <span class="day">Bairro: JD Orestes Veroni </span></p>
+							<p><i class="fa fa-home" aria-hidden="true"></i> <span class="day">Limeira - SP</span></p>
+						</div>
+					</div>
+					
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<p id="back-top">
+			<a href="#top"><i class="fa fa-angle-up"></i></a>
+		</p>
+		
+		<footer>
+			<div class="container text-center">
+				<p>© Copyright 2019 - TSS </p>
+			</div>
+		</footer>
+
+		
+
+		<!-- Bootstrap core JavaScript
+			================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+		<script src="js/jquery.appear.js"></script>
+		<script src="js/SmoothScroll.min.js"></script>
+		<script src="js/theme-scripts.js"></script>
+	</body>
 </html>
